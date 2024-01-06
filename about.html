@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(252, 142, 172);
+            color: white;
+            font-family: 'Crimson Text', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(255, 183, 200);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: deeppink;
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background: gold;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: gold;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .First div {
+            font-size: 1.5rem;
+            text-align: justify;
+            width: 50%;
+            padding-left: 600px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 25px;
+            direction:ltr;
+            
+        }
+        .name{
+            color: gold;
+        }
+        .images{
+            width: 45%;
+            height: 80%;
+            position: absolute;
+            bottom: 0;
+            left: -90px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left: -38px;
+            bottom: 0;
+            transform: translateX(2%);
+            transition: bottom 1s, right 1s;
+        }
+        .images:hover .shape{
+            bottom:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shivyanshi's Digital Portfolio</div>
+            <div class="right">
+                <ul style="float: right;">
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./about.html">About me</a></li>
+                    <li><a href="./Certifications.html">Certifications</a></li>
+                    <li><a href="./Reach.html">Reach out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="First">
+            <div>Hi! Thanks for dropping by</div>
+           <div> I am <span class="name">Shivyanshi</span> </div>
+            <div>I am a prefinal year student at Vellore Institute of Technology, Bhopal Campus. Pursuing my bachelors
+                in Computer Science Engineering with a specialisation in Cybersecurity and Digital Forensics. As someone
+                who loves to stay up-to-date with the latest advancements in the tech industry, I have developed a keen
+                interest in cybersecurity and its impact on our digital lives.
+            </div>
+            <div>I have a knack for writing and aspire to write blogs enlightening the mass about all things cyber.
+                Through my writing, I aim to educate and inform readers about the latest cybersecurity trends, best
+                practices, and technologies. Along with developing deep understanding of the ever-evolving cyber
+                landscape, I want to bring a fresh perspective to the industry.</div>
+        </div>
+        <div class="images">
+            <img src="shape.png" class="shape" style="float: left;">
+            <img src="shivyanshi" class="girl" style="float: left;">
+        </div>
+    </main>
+</body>
+
+</html>

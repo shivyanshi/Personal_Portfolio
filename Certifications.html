@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(252, 142, 172);
+            color: white;
+            font-family: 'Crimson Text', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(255, 183, 200);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: deeppink;
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background: gold;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: gold;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .Certificationsection {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 30px;
+            height: 452px;
+        }
+
+        .Certsection-colour {
+            color: gold;
+            font-size: 2.1rem;
+        }
+
+        .Certificationsection div {
+            font-size: 1.2rem;
+            animation: 3s 1 alternate slidein;
+        }
+        .Firstsection-cert img{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .images{
+            display: flex;
+            flex-wrap: wrap;
+            margin:50px;
+            padding:30px;
+        }
+
+        .pictures { 
+            max-width: 50%; 
+            padding: 0 10px; 
+            height: 240px; 
+            margin-bottom: 50px;
+        }
+        .pictures img { 
+            width: 100%; 
+            height: 100%; 
+        } 
+        .Text-sectiontwo{
+           font-size: 2rem;
+           text-align: right;
+           margin-right: 100px;
+           color: gold;
+           animation: 3s 1 alternate slidein
+        }
+
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shivyanshi's Digital Portfolio</div>
+            <div class="right">
+                <ul style="float: right;">
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./about.html">About me</a></li>
+                    <li><a href="./Certifications.html">Certifications</a></li>
+                    <li><a href="./Reach.html">Reach out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Certificationsection">
+            <span class="Certsection-colour">My Certifications</span>
+            <div>During the course of my undergraduate journey, I successfully upskilled myself and along the way
+                attained professional certifications.</div>
+            <div>Here is a glimpse of the certifications I own......</div>
+            <div class="Firstsection-cert">
+                <img src="Certification.jpeg" alt="" style="float: centre;">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection-Cert">
+            <div class="images">
+                <div class="pictures">
+                    <img src="ECC-CEH-Certificate_page.jpg" alt="CEH Certificate">
+                </div>
+                <div class="pictures">
+                    <img src="Microsoft Azure AZ900_.jpg" alt="Microsoft Azure AZ 900">
+                </div>
+                <div class="pictures">
+                    <img src="Microsoft SC900.jpg" alt="Microsoft SC 900">
+                </div>
+                <div class="pictures">
+                    <img src="ANZ_Australia_completion_certificate_.jpg" alt="">
+                </div>
+                <div class="pictures">
+                    <img src="SQL Attacks.png" alt="" >
+                </div>
+            </div>
+            <div class="Text-sectiontwo">And many more...</div>
+
+        </section>
+        <hr>
+
+    </main>
+</body>
+
+</html>
