@@ -5,7 +5,6 @@ Dive into my hand-coded personal website, a seamless blend of HTML and CSS. Enjo
 
 
 
-
 ## Tech Stack
 
 This project was made using the following technologies:
